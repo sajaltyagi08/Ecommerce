@@ -1,0 +1,243 @@
+
+body{
+
+  background: white;
+}
+
+.productPage {
+  background-color: rgb(238, 7, 7);
+  display: flex;
+  flex-wrap:wrap ;
+  color: white;
+  font-weight: bold;
+  justify-content: space-between;
+  padding: 10px 10px;
+  
+  }
+
+
+.ProductList {
+   
+  text-align: center;
+  margin-top: 2px;
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  grid-auto-rows: minmax(59px, auto); }
+
+  .product-Img-name {
+
+    width: auto;
+    height: 280px;
+
+  }
+ 
+.ProductNameHome{
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  }
+
+.ProductHomeImage {
+
+  width: 200px;
+  height: auto;
+  padding: 10% 10% 20%;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 5px 10px 5px;
+}
+
+.total-continue{
+  color:rgb(244, 9, 9);
+  padding-top: 3px;
+  padding-bottom: 07px;
+  
+  font-weight: bold;
+ 
+  
+ 
+ 
+
+}
+
+.ProductHomeCategory{
+color:rgb(150, 7, 7);
+font-size: small;
+padding-right: 120px;
+font-family: "Consolas";
+
+}
+
+.Product-Rating {
+
+    color:rgb(239, 223, 6);
+    font-size: small; }
+    
+    
+
+ .price{
+  padding: 5px 10px 6px 60px ;
+  margin-left: 0px;
+ box-shadow: 1px 1px 2px 1px #888888;
+}
+
+.AddCartButt {
+  background-color: #4CAF50; 
+  border-color:transparent;
+  color: white;
+  padding: 07px 09px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 16px;
+  cursor: pointer;
+
+} 
+
+.AppCopyright {
+
+  margin-top: 0px;
+  border-top: 20px solid rgb(252, 251, 251);}
+
+
+
+
+.total-continue {
+
+  display: flex;
+  justify-content: center;
+                }
+
+.copyright {
+
+ display: flex;
+ justify-content: center;
+           }
+
+/* Cart Page  */
+
+.Cart-page-div {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+               }
+
+.remove-btn {
+
+  background-color: #e90a0a; 
+  border-color:transparent;
+  color: white;
+  padding: 02px 03px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 16px;
+  cursor: pointer;
+           }
+
+ .Cart-price {
+  font-size: medium;
+  text-align: center; 
+font-weight:bold;
+padding-top: 2px;
+padding-bottom: 2px;
+             }
+
+  .Min-btn {
+ background-color: #e90a0a;
+ border: none;
+ color: white;
+ cursor: pointer;
+ padding: 02px 15px;
+ font-weight: bold;
+           }
+
+  .Plus-btn {
+   border: none;
+    background-color: green;
+    color:white;
+    cursor: pointer;
+    padding: 02px 15px;
+    font-weight: bold;
+             }
+
+  .Qnty-Cart{
+  font-weight: bold;
+            }
+
+  .img-cart-bage {
+    width: 200px;
+    height: auto;
+    padding: 10% 10% 20%;
+   }
+
+   .Product-cart-name {
+     font-weight: bold;
+                      }
+
+.cart-name-img {
+
+  height: 250px; 
+                }
+
+.checkout-form  {
+  max-width: 400px;
+  margin: auto; }
+
+input,textarea  {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.div-Cart-chk-plz {
+  text-align: center;
+  display: inline-table;
+  justify-content: center;
+  grid-gap: 4rem;
+
+}
+
+.Plz-C-Shop  {
+
+margin-top: 10px;
+padding-right: 50px;
+color: black;
+font-weight: bold;
+padding-left: 5px; }
+
+.Check-out-btn{
+
+  border: none;
+  background: green;
+  color:white;
+  padding: 9px 9px 9px 9px;
+  font-weight: bold; }
+
+.checkout-form {
+
+  width: 100%;
+  justify-content: center;
+  margin-top: 15px; }
+
+
+.place-order {
+  border: none;
+  padding: 9px 9px 9px 9px;
+  background: red;
+  color: white;
+
+}
+
